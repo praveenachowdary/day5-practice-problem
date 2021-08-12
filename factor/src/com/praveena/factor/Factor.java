@@ -7,7 +7,7 @@ public class Factor {
             Scanner sc=new Scanner(System.in);
             System.out.println("enter the number to get its factors");
             int number=sc.nextInt();
-            utilities u1=new utilities();
+            utility u1=new utility();
             u1.primefactor(number);
 
         }
